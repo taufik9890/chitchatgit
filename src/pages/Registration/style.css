@@ -1,0 +1,55 @@
+/* Shudhu registration er jonno js ba css lage tahole eder jonno alada bhabe index.js ar style.css e rakte hobe */
+
+
+.reg-header{
+    margin-bottom: 20px !important;
+}
+.reg-header h2{
+    font-family: var(--secondary-font);
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--title-color);
+    text-transform: capitalize;
+}
+
+.reg-header p{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.passhow{
+    position: relative;
+}
+
+.eyes{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    right: 30%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+}
+.btn{
+    width: 70%;
+    background: var(--primary-color) !important;
+    padding: 10px 10px !important;
+    border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    -ms-border-radius: 50px !important;
+    -o-border-radius: 50px !important;
+    font-family: var(--secondary-font) !important;
+    font-weight: 600 !important;
+    text-transform: initial !important;
+    font-size: 20px !important;
+}
+
+.signup-img img{
+    width: 100%;
+}
+

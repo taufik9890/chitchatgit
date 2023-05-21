@@ -1,0 +1,102 @@
+.grouplist{
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 15px;
+    padding: 15px 10px 15px 15px;
+}
+.grouplist_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grouplist_header h4{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.grouplist_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 0;
+}
+.grouplist_wrapper:last-child{
+    border-bottom: none;
+}
+.grouplist_images{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.grouplist_div{
+    margin-top: 10px;
+    height: 250px;
+    overflow-y: auto;
+    padding-right: 5px;
+    /* auto dile automatically ekta scroll diye dibe jodi dorkar pore  */
+}
+.grouplist_div::-webkit-scrollbar  {
+    width: 8px;
+}
+.grouplist_div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #e2dcdc;
+  }
+.grouplist_images img{
+    width: 70px;
+    height: 70px;
+}
+.grouplist_name{
+    width: 60%;
+}
+.grouplist_name h3{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.grouplist_btn button{
+    font-family: var(--primary-font);
+    background: var(--primary-color);
+    font-weight: 600;
+    color: var(--white);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+.grp_inputs{
+    margin-top: 15px !important;
+}
+.create_btn {
+    font-family: var(--primary-font) !important;
+    background: var(--primary-color) !important;
+    font-weight: 600 !important;
+    color: var(--white) !important;
+    border: none;
+    padding: 6px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px !important;
+}

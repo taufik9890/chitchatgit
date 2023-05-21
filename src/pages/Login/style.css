@@ -1,0 +1,37 @@
+.avatar img{
+    width: 80px;
+}
+.avatar{
+    
+    text-align: center !important;
+    margin-bottom: 10px;
+}
+.google-authentication{
+    border: 1px solid var(--secondary-color);
+    padding: 22px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+}
+.auth_text h4{
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--rare-font);
+    color: var(--secondary-color);
+}
+/* Shorashori Link bolte parbo na karon eta hocche react router dom er under e  */
+.forgetpass {
+    margin-top: 15px;
+    text-align: center;
+
+    
+}
+.forgetpass a:hover{
+    text-decoration: underline;
+}

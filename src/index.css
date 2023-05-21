@@ -1,0 +1,101 @@
+/* index.css hocche global. Mane shokol gular shathe connected thake */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+:root{
+    --title-color: #11175D;
+    --black: #000;
+    --primary-color: #5F35F5;
+    --white: #fff;
+    --secondary-color: #03014C;
+    --red-orange: #EA6C00;
+    --error: #DC3535;
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Nunito', sans-serif;
+    --rare-font: 'Open Sans', sans-serif;
+    --green: #00FF75;
+    --secondary-white: #f1f1f1;
+
+
+
+}
+button{
+    
+    background: var(--primary-color);
+    padding: 10px 12px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-family: var(--primary-font);
+    background: var(--primary-color);
+    font-weight: 600;
+    color: var(--white);
+    margin-bottom: 5px;
+    display: block;
+
+}
+body{
+    background: #f9f9f9;
+}
+
+/* box design  */
+.box{
+    align-items: center;
+    height: 100vh;
+}
+
+
+.input-des{
+    width: 70%;
+    margin-bottom: 15px !important;
+}
+
+.links{
+    width: 70%;
+    margin-top: 35px !important;
+}
+.links p{
+    font-family: var(--rare-font);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--secondary-color);
+    text-align: center;
+}
+.Mui-focused{
+    /* color: var(--primary-color) !important; */
+    color: red !important;
+    border-color: red !important;
+}
+.input-des:focus{
+    border-color: red !important;
+    color: red !important;
+}
+.errorcls{
+    font-family: var(--rare-font);
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--error);
+    margin-bottom: 10px;
+
+}
+.links p a{
+    color: var(--red-orange);
+    
+    font-family: var(--rare-font);
+    font-size: 13px;
+    font-weight: 700;
+}

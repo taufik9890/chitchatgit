@@ -1,0 +1,83 @@
+.group{
+    width: 100%;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 15px;
+    padding: 15px 10px 15px 15px;
+}
+.group_header h4{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.group_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px 0;
+    align-items: center;
+}
+.group_wrapper:last-child{
+    border-bottom: none;
+}
+.group_images{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.group_div{
+    margin-top: 10px;
+    height: 270px;
+    overflow-y: auto;
+    padding-right: 5px;
+    /* auto dile automatically ekta scroll diye dibe jodi dorkar pore  */
+}
+.group_div::-webkit-scrollbar  {
+    width: 8px;
+}
+.group_div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #e2dcdc;
+  }
+.group_images img{
+    width: 70px;
+    height: 70px;
+}
+.group_name{
+    width: 60%;
+}
+.group_name h3{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--black);
+    text-transform: capitalize;
+}
+.group_btn button{
+    font-family: var(--primary-font);
+    background: var(--primary-color);
+    font-weight: 600;
+    color: var(--white);
+    border: none;
+    padding: 6px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+    
+}
